@@ -1,0 +1,206 @@
+﻿
+@{
+    ViewBag.Title = "ViewProduct";
+}
+@model Tech_Shop.DB.Product
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/js.cookie.js"></script>
+ 
+<script src="~/Scripts/jquery.cookie.js"></script>
+
+
+<body style="
+    background-color:aqua;
+background:url(../Resources/Shop.jpg);
+background-size:100%;">
+
+
+    <br />
+    <h1 style="color:darkseagreen">@Model.Name</h1>
+    <br />
+
+    <div class="row">
+        <div class="col-md-6">
+            <p><img src="../@Model.ProductImagePath" class="img-responsive" alt="Cinque Terre" style="width:400px;"></p>
+        </div>
+        <div class="col-md-6" style="color:white;">
+
+            <p style="font:bold 40px arial"><b>Price: </b>@Model.Price</p>
+
+            <p style="font: 25px arial"><b>Brand: </b>@Model.Brand</p>
+
+            <p style="font:20px arial;"><h3>Description:</h3>@Model.Description</p>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <button id="addToCard" class="btn btn-primary" style="width:300px;font:bold 25px arial;">Add in card</button>
+
+            <script>
+
+            //.removeCookie("Items");
+            //Cookies.remove("Items");
+
+            $("#addToCard").click(function () {
+
+
+            if (!Cookies.get('Items')) {
+
+                    @*$.cookie("Items", "@Model.Id");*@
+
+                Cookies.set("Items", "@Model.Id");
+                window.alert("Item successfully added in cart.");
+
+            } else {
+
+                var currentCookies = Cookies.get('Items');
+
+                if (!currentCookies.includes("@Model.Id")) {
+                    currentCookies += " @Model.Id";
+
+                    //$.cookie("Items", currentCookies);
+                    Cookies.set("Items", currentCookies);
+                    window.alert("Item successfully added in cart.");
+                } else
+                    window.alert("You already have that item in a cart.");
+
+                }
+
+            var itemsString = Cookies.get('Items');
+            var itemArr = itemsString.split(' ');
+
+            $('#CartBtn_Items').text(itemArr.length);
+
+            });
+
+
+
+
+
+
+
+            </script>
+        </div>
+
+    </div>
+ 
+    <div class="row">
+
+        <div class="col-md-6">
+      
+            <button type="button" class="btn btn-info" id="specificationsShow_btn" data-toggle="collapse" data-target="#showspecifications">Specifications <span class="caret"></span></button>
+      
+            @try
+            {
+                <h1 id="specificationsEmpty"></h1>
+
+                <div id="showspecifications" class="panel-collapse collapse">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th>Processor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Brand :</td>
+                                <td>@Model.ComputerSpecification.ProcessorBrand</td>
+                            </tr>
+                            <tr>
+                                <td>Model :</td>
+                                <td>
+                                    @Model.ComputerSpecification.ProcessorType
+                                    @Model.ComputerSpecification.ProcessorModel
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>GHz :</td>
+                                <td>@Model.ComputerSpecification.ProcessorGHz</td>
+                            </tr>
+                            <tr>
+                                <td>Cores :</td>
+                                <td>@Model.ComputerSpecification.ProcessorCoreNumber</td>
+                            </tr>
+
+                            <tr>
+                                <th>Ram</th>
+                            </tr>
+                            <tr>
+                                <td>Memory :</td>
+                                <td>@Model.ComputerSpecification.RamMemory</td>
+                            </tr>
+                            <tr>
+                                <td>Type :</td>
+                                <td>@Model.ComputerSpecification.RamType</td>
+                            </tr>
+                            <tr>
+                                <td>Slots :</td>
+                                <td>@Model.ComputerSpecification.RamSlots</td>
+                            </tr>
+                            <tr>
+                                <td>Slots Used :</td>
+                                <td>@Model.ComputerSpecification.RamSlotsUsed</td>
+                            </tr>
+
+                            <tr>
+                                <th>Hard Disc</th>
+                            </tr>
+
+                            <tr>
+                                <td>Type :</td>
+                                <td>@Model.ComputerSpecification.HardDiscType</td>
+                            </tr>
+                            <tr>
+                                <td>Memory :</td>
+                                <td>@Model.ComputerSpecification.HardDiscMemory</td>
+                            </tr>
+                            <tr>
+                                <td>Speed :</td>
+                                <td>@Model.ComputerSpecification.HardDiscCirclingSpeed</td>
+                            </tr>
+
+                            <tr>
+                                <th>Video Card</th>
+                            </tr>
+                            <tr>
+                                <td>Brand :</td>
+                                <td>@Model.ComputerSpecification.VideoCardBrand</td>
+                            </tr>
+                            <tr>
+                                <td>Serie :</td>
+                                <td>@Model.ComputerSpecification.VideoCardSerie</td>
+                            </tr>
+                            <tr>
+                                <td>Model :</td>
+                                <td>@Model.ComputerSpecification.VideoCardModel</td>
+                            </tr>
+                            <tr>
+                                <td>Memory :</td>
+                                <td>@Model.ComputerSpecification.VideoCardMemory</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            }
+            catch (Exception)
+            {
+                <script>
+                    $("#specificationsShow_btn").remove();
+                    $("#showspecifications").remove();
+                    $("#specificationsEmpty").text("No specifications about this item");
+                </script>
+
+            }
+          
+
+        </div>
+
+    </div>
+      
+    
+
+</body>
+
+<link href="~/Content/SpecificationsTable.css" rel="stylesheet" />

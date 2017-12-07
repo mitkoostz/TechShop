@@ -1,0 +1,21 @@
+﻿.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+th{
+    font: 40px bold arial;
+    color:gray;
+}
+tr{
+    font:25px arial;
+    color:antiquewhite;
+   
+}
+td {
+    background-color: black;
+}

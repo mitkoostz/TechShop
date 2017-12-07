@@ -1,0 +1,282 @@
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\ApplicationInsights.config
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\csc.exe
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\csc.exe.config
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\csc.rsp
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\csi.exe
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\csi.exe.config
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\csi.rsp
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.AppContext.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Collections.Immutable.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Console.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Diagnostics.Process.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.IO.Compression.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.IO.FileSystem.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.IO.Pipes.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Reflection.Metadata.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Security.AccessControl.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Security.Claims.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Security.Principal.Windows.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Threading.Thread.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.ValueTuple.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Xml.XPath.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\vbc.exe
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\vbc.exe.config
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\vbc.rsp
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\VBCSCompiler.exe
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\roslyn\VBCSCompiler.exe.config
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Tech-Shop.dll.config
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Tech-Shop.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Tech-Shop.pdb
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Antlr3.Runtime.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.Agent.Intercept.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.DependencyCollector.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.Web.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.WindowsServer.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.ApplicationInsights.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.Web.Infrastructure.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Newtonsoft.Json.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Helpers.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Mvc.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Optimization.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Razor.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.WebPages.Deployment.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.WebPages.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.WebPages.Razor.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\WebGrease.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Helpers.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Mvc.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Optimization.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.Razor.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.WebPages.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.WebPages.Deployment.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\System.Web.WebPages.Razor.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Antlr3.Runtime.pdb
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Newtonsoft.Json.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.ApplicationInsights.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.DependencyCollector.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.WindowsServer.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\Microsoft.AI.Web.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\obj\Debug\Tech-Shop.csprojResolveAssemblyReference.cache
+D:\My Pojects C#\Tech-Shop\Tech-Shop\obj\Debug\Tech-Shop.csproj.CoreCompileInputs.cache
+D:\My Pojects C#\Tech-Shop\Tech-Shop\obj\Debug\Tech-Shop.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\obj\Debug\Tech-Shop.pdb
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\EntityFramework.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\EntityFramework.SqlServer.dll
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\EntityFramework.xml
+D:\My Pojects C#\Tech-Shop\Tech-Shop\bin\EntityFramework.SqlServer.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\ApplicationInsights.config
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\csc.exe
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\csc.exe.config
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\csc.rsp
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\csi.exe
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\csi.exe.config
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\csi.rsp
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.AppContext.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Console.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Diagnostics.Process.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.IO.Compression.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.IO.Pipes.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Security.AccessControl.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Security.Claims.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Security.Principal.Windows.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Threading.Thread.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Xml.XPath.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\vbc.exe
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\vbc.exe.config
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\vbc.rsp
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\VBCSCompiler.exe
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\VBCSCompiler.exe.config
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Collections.Immutable.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.IO.FileSystem.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Reflection.Metadata.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\roslyn\System.ValueTuple.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Tech-Shop.dll.config
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Tech-Shop.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Tech-Shop.pdb
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Antlr3.Runtime.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\EntityFramework.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\EntityFramework.SqlServer.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.Agent.Intercept.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.DependencyCollector.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.Web.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.WindowsServer.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.ApplicationInsights.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.Web.Infrastructure.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Newtonsoft.Json.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Helpers.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Mvc.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Optimization.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Razor.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.WebPages.Deployment.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.WebPages.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.WebPages.Razor.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\WebGrease.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\EntityFramework.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\EntityFramework.SqlServer.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Helpers.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Mvc.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Optimization.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.Razor.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.WebPages.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.WebPages.Deployment.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\System.Web.WebPages.Razor.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Antlr3.Runtime.pdb
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Newtonsoft.Json.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.ApplicationInsights.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.DependencyCollector.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.WindowsServer.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\bin\Microsoft.AI.Web.xml
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\obj\Debug\Tech-Shop.csprojResolveAssemblyReference.cache
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\obj\Debug\Tech-Shop.csproj.CoreCompileInputs.cache
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\obj\Debug\Tech-Shop.dll
+D:\My Pojects C#\Tech-Shop – Копие\Tech-Shop\obj\Debug\Tech-Shop.pdb
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\ApplicationInsights.config
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\csc.exe
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\csc.exe.config
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\csc.rsp
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\csi.exe
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\csi.exe.config
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\csi.rsp
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.AppContext.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Collections.Immutable.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Console.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Diagnostics.Process.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.IO.Compression.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.IO.FileSystem.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.IO.Pipes.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Reflection.Metadata.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Security.AccessControl.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Security.Claims.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Security.Principal.Windows.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Threading.Thread.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.ValueTuple.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Xml.XPath.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\vbc.exe
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\vbc.exe.config
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\vbc.rsp
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\VBCSCompiler.exe
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\roslyn\VBCSCompiler.exe.config
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Tech-Shop.dll.config
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Tech-Shop.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Tech-Shop.pdb
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Antlr3.Runtime.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\EntityFramework.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\EntityFramework.SqlServer.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.Agent.Intercept.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.DependencyCollector.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.Web.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.WindowsServer.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.ApplicationInsights.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.Web.Infrastructure.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Newtonsoft.Json.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Helpers.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Mvc.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Optimization.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Razor.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.WebPages.Deployment.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.WebPages.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.WebPages.Razor.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\WebGrease.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\EntityFramework.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\EntityFramework.SqlServer.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Helpers.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Mvc.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Optimization.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.Razor.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.WebPages.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.WebPages.Deployment.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\System.Web.WebPages.Razor.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Antlr3.Runtime.pdb
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Newtonsoft.Json.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.ApplicationInsights.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.DependencyCollector.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.WindowsServer.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\bin\Microsoft.AI.Web.xml
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.csprojResolveAssemblyReference.cache
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.csproj.CoreCompileInputs.cache
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.dll
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.pdb

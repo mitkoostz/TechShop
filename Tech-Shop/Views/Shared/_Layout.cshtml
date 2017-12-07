@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/js.cookie.js"></script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("TechShop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+ 
+                   <li><a href="">Home</a></li>
+
+                    <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Categories
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color:darkslategrey;">
+
+                                <li class="dropdown-header">Computers</li>
+                                <li><a href="/Shop?category=Laptops" style="color:white;">Laptops</a></li>
+                                <li><a href="/Shop?category=DesktopComputers" style="color:white;">DesktopComputers</a></li>
+                                <li><a href="/Shop?category=Tablet-Laptops" style="color:white;">Tablet-Laptops</a></li>
+
+                                <li role="presentation" class="divider"></li>
+
+                                <li class="dropdown-header">Mobile</li>
+                                <li><a href="#" style="color:white;">Mobile Phones</a></li>
+                                <li><a href="#" style="color:white;">Cases</a></li>
+                                <li><a href="#" style="color:white;">Batteries</a></li>
+                            </ul>
+                     </li>
+
+                 
+                  
+                </ul>
+
+            
+        @*Search bar*@ 
+            
+        <form class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text"  id="searchInput"  class="form-control" placeholder="Search"></div>
+            
+             <a  id="searchBtn"  onclick="Search();" class="btn btn-primary">Search</a>
+            <script>
+
+
+          
+            
+               
+
+                function Search() {
+                    var searching = $("#searchInput").val();
+                    var url = "/Home/Search?searched=" + searching;
+
+                    $("#searchBtn").attr("href", url);
+                    $("#searchBtn").trigger("click");
+
+
+
+                }
+            </script>
+           
+          
+         
+        </form>
+
+                @*Shop Cart button*@
+                <a href="/ShopCart" style="color:white;border-radius:30px; position:absolute; top:6px; height:38px; width:120px" class="btn btn-info btn-lg">
+
+                    <div style="position:absolute; bottom:4px; width:100px;">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>Cart <span class="badge" id="CartBtn_Items"></span>
+                        <script>
+                            var itemsString = Cookies.get('Items');
+                            var itemArr = itemsString.split(' ');
+
+                            $('#CartBtn_Items').text(itemArr.length);
+                        </script>
+                    </div>
+
+                </a>
+                  
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

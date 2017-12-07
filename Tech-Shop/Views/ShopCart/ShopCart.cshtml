@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "ShopCart";
+}
+@model ICollection<Tech_Shop.DB.Product> 
+
+<body style="
+    background-color:aqua;
+background:url(Resources/Shop.jpg);
+background-size:100%;">
+
+
+    <br />
+    
+    @{ var TotalPrice = 0.0; }
+
+        @foreach (var product in Model)
+        {
+           
+            var currentProductPrice = double.Parse(product.Price);
+            TotalPrice += currentProductPrice;
+
+            <div class="row">
+
+                <div style="list-style-type: none;" class="col-md-3" id="Image">
+
+                    <a style="display:block" class="item" href="Shop/ViewProduct?id=@product.Id">
+
+                        <p><img src="@product.ProductImagePath" style="width:150px;" class="img-rounded" alt="Cinque Terre"></p>
+
+                    </a>
+
+                </div>
+
+
+                <div style="list-style-type: none;" class="col-md-9" id="Image">
+
+                    <h1 style="color:white;">@product.Name</h1>
+                    <p style="font: 20px arial; color:white;">Price: <b>@product.Price</b> </p>
+                    <p style="font: 14px arial; color:white;">Brand: <b>@product.Brand</b</p>
+
+
+                </div>
+
+
+
+            </div>
+              
+                
+        }
+
+    <h1 style="color:white;">Total: <b>@TotalPrice</b> </h1>
+
+</body>
+

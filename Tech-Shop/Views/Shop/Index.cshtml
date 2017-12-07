@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+@model ICollection<Tech_Shop.DB.Product>
+
+
+<h1 style="color:darkseagreen"><b>@ViewBag.Category</b></h1>
+
+<body style="
+    background-color:aqua;
+background:url(Resources/Shop.jpg);
+background-size:100%;">
+
+
+    <ul>
+        @foreach (var product in Model)
+            {
+            <li style="list-style-type: none;" class="col-md-3 odd" id="Alert">
+
+
+                <a style="display:block" class="item" href="Shop/ViewProduct?id=@product.Id">
+
+                    <div>
+
+                        <label style="padding-top:0px; padding-left:0px;">@product.Name</label>
+
+                        <div class="@product.Id"  style=" right:225px; position:absolute; visibility:hidden;  bottom:100px; width:100px;height:50px; background-color:red;"></div>
+
+                        <img src="@product.ProductImagePath" id="@product.Id" class="img-rounded" alt="Cinque Terre">
+
+
+                    </div>
+         
+                </a>
+
+               
+                   @if (product.ComputerSpecification != null)
+                   {
+                    <script>
+                        $("#@product.Id").hover(function() {
+
+                            $(".@product.Id").css("visibility", "visible");
+
+
+                        }, function myfunction()
+                        {
+
+
+
+                        });
+                    </script>
+                   }
+                     
+       
+
+            </li>
+
+        }
+    </ul>
+    <script>
+   
+        
+        $(".img-rounded").hover(function () {
+
+            $(this).css("border", "3px solid black");
+
+
+        }, function myfunction() {
+
+            $(this).css("border", "none");
+
+        });
+
+
+    </script>
+</body>
+
+<footer>
+    <ul class="pagination">
+        <li id="1"><a href="?category=@ViewBag.Category&page=1">1</a></li>
+        <li id="2"><a href="?category=@ViewBag.Category&page=2">2</a></li>
+        <li id="3"><a href="?category=@ViewBag.Category&page=3">3</a></li>
+        <li id="4"><a href="?category=@ViewBag.Category&page=4">4</a></li>
+        <li id="5"><a href="?category=@ViewBag.Category&page=5">5</a></li>
+    </ul>
+</footer>
+
+
+   
+
+
+
+<link href="~/Content/ImageCorrector.css" rel="stylesheet" />
