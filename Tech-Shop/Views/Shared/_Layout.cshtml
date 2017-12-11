@@ -24,7 +24,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
  
-                   <li><a href="">Home</a></li>
+                   <li><a href="/Home">Home</a></li>
 
                     <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -47,40 +47,27 @@
                             </ul>
                      </li>
 
-                 
-                  
+                 <li style="top:7px;">
+
+                     @*Search bar*@
+                     
+                     @using (Html.BeginForm("Search", "Home", FormMethod.Post,
+                     new { id = "searchForm", enctype = "multipart/form-data" }))
+                     {
+                        <fieldset>
+                            <input type="text" id="searched" name="searched" class="form-control" placeholder="Search">
+                        </fieldset>                       
+                     }
+
+                 </li>
+                    &nbsp;
+                    &nbsp;
+                    <li  style="top:7px; right:5px;">
+                        &nbsp;
+                        <button type="submit" form="searchForm" class="btn btn-primary">Search</button>
+
+                    </li>
                 </ul>
-
-            
-        @*Search bar*@ 
-            
-        <form class="navbar-form navbar-left">
-            <div class="form-group">
-                <input type="text"  id="searchInput"  class="form-control" placeholder="Search"></div>
-            
-             <a  id="searchBtn"  onclick="Search();" class="btn btn-primary">Search</a>
-            <script>
-
-
-          
-            
-               
-
-                function Search() {
-                    var searching = $("#searchInput").val();
-                    var url = "/Home/Search?searched=" + searching;
-
-                    $("#searchBtn").attr("href", url);
-                    $("#searchBtn").trigger("click");
-
-
-
-                }
-            </script>
-           
-          
-         
-        </form>
 
                 @*Shop Cart button*@
                 <a href="/ShopCart" style="color:white;border-radius:30px; position:absolute; top:6px; height:38px; width:120px" class="btn btn-info btn-lg">

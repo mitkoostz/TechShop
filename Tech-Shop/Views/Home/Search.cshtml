@@ -21,7 +21,7 @@ background-size:100%;">
             <li style="list-style-type: none;" class="col-md-3 odd" id="Alert">
 
 
-                <a style="display:block" class="item" href="Shop/ViewProduct?id=@product.Id">
+                <a style="display:block" class="item" href="/Shop/ViewProduct?id=@product.Id">
 
                     <label style="padding-top:0px; padding-left:0px;">@product.Name</label>
                     <p><img src="/@product.ProductImagePath" class="img-rounded" alt="Cinque Terre"></p>
@@ -33,6 +33,7 @@ background-size:100%;">
         }
     </ul>
     <script>
+        $("#searched").val("@ViewBag.Searched");
 
 
         $(".img-rounded").hover(function () {

@@ -18,6 +18,7 @@ namespace Tech_Shop.Controllers
         }
            
  
+        [HttpPost]
         public ActionResult Search(string searched)
         {
             if(searched == null || searched == "")
@@ -35,7 +36,9 @@ namespace Tech_Shop.Controllers
                     return View("SearchNoResults");
                 }
 
+                ViewBag.Searched = searched;
                 return View(matchedProducts);
+                
 
 
             }
