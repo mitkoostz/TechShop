@@ -23,38 +23,17 @@ background-size:100%;">
 
                 <a style="display:block" class="item" href="Shop/ViewProduct?id=@product.Id">
 
-                    <div>
+                    <div style="position:relative;">
 
                         <label style="padding-top:0px; padding-left:0px;">@product.Name</label>
 
-                        <div class="@product.Id"  style=" right:225px; position:absolute; visibility:hidden;  bottom:100px; width:100px;height:50px; background-color:red;"></div>
 
-                        <img src="@product.ProductImagePath" id="@product.Id" class="img-rounded" alt="Cinque Terre">
+                        <img  src="@product.ProductImagePath" style="z-index:-1;" id="@product.Id" class="img-rounded" alt="Cinque Terre">
 
 
                     </div>
          
                 </a>
-
-               
-                   @if (product.ComputerSpecification != null)
-                   {
-                    <script>
-                        $("#@product.Id").hover(function() {
-
-                            $(".@product.Id").css("visibility", "visible");
-
-
-                        }, function myfunction()
-                        {
-
-
-
-                        });
-                    </script>
-                   }
-                     
-       
 
             </li>
 
