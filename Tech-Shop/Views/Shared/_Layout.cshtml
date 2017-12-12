@@ -76,8 +76,9 @@
                         <span class="glyphicon glyphicon-shopping-cart"></span>Cart <span class="badge" id="CartBtn_Items"></span>
                         <script>
                             var itemsString = Cookies.get('Items');
-                            var itemArr = itemsString.split(' ');
 
+                            var itemArr = itemsString.split(' ');
+                            itemArr.shift();
                             $('#CartBtn_Items').text(itemArr.length);
                         </script>
                     </div>

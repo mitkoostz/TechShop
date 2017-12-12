@@ -3,6 +3,9 @@
     ViewBag.Title = "ShopCart";
 }
 @model ICollection<Tech_Shop.DB.Product> 
+<script src="~/Scripts/js.cookie.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
 
 <body style="
     background-color:aqua;
@@ -11,12 +14,13 @@ background-size:100%;">
 
 
     <br />
+    <br />
     
     @{ var TotalPrice = 0.0; }
 
         @foreach (var product in Model)
         {
-           
+
             var currentProductPrice = double.Parse(product.Price);
             TotalPrice += currentProductPrice;
 
@@ -33,20 +37,33 @@ background-size:100%;">
                 </div>
 
 
-                <div style="list-style-type: none;" class="col-md-9" id="Image">
+                <div style="list-style-type: none;" class="col-md-7 col-sm-10" id="itemData">
 
                     <h1 style="color:white;">@product.Name</h1>
                     <p style="font: 20px arial; color:white;">Price: <b>@product.Price</b> </p>
-                    <p style="font: 14px arial; color:white;">Brand: <b>@product.Brand</b</p>
-
+                    <p style="font: 14px arial; color:white;">Brand: <b>@product.Brand</b></p>
 
                 </div>
+                <div style="list-style-type: none;" class="col-md-2" id="close">
+
+                    <button class="btn btn-danger" id="removeItem-@product.Id"><b>remove from cart</b></button>
+                </div>
+
+                <script>
+                    $("#removeItem-@product.Id").click(function () {
 
 
+                        var cookies = Cookies.get('Items');           
+                        var updatedCookies = cookies.replace(" @product.Id", "");
+                        
+                        Cookies.set("Items", updatedCookies);
+                        location.reload();
 
+                    });
+                </script>
+               
             </div>
-              
-                
+            <br />
         }
 
     <h1 style="color:white;">Total: <b>@TotalPrice</b> </h1>
