@@ -280,3 +280,5 @@ D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.csprojResolveAssemb
 D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.csproj.CoreCompileInputs.cache
 D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.dll
 D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.pdb
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech_Shop.Migrations.OrderTableAdded.resources
+D:\My Pojects C#\Tech-Shop 0.3\Tech-Shop\obj\Debug\Tech-Shop.csproj.GenerateResource.Cache

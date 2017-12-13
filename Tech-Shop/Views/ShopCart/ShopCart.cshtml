@@ -66,7 +66,20 @@ background-size:100%;">
             <br />
         }
 
+    <br />
     <h1 style="color:white;">Total: <b>@TotalPrice</b> </h1>
+ 
+   @using (Html.BeginForm("PurchaseStart", "Shop", FormMethod.Post,
+                                               new { enctype = "multipart/form-data" }))
+   {
+       <fieldset>
+
+           <button type="submit" style="width:150px;" class="btn btn-primary">Purchase</button>
+
+       </fieldset>
+   }
+
+    
 
 </body>
 

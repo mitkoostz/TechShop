@@ -1,0 +1,52 @@
+﻿@model Tech_Shop.Models.PurchaseData
+
+@{
+    ViewBag.Title = "Purchase";
+}
+
+
+<body style="
+    background-color:aqua;
+background:url(/Resources/Shop.jpg);
+background-size:100%;">
+
+    <h1 style="color:white;">Enter order data.</h1> 
+    <hr />
+
+    @using (Html.BeginForm("PurchaseFinish", "Shop", FormMethod.Post))
+    {
+        <div class="form-group" >
+ 
+                <div class="form-group">
+                    <label class="dataname">Name</label>
+                    <label style="visibility:hidden;" class="text-danger">field is absolutly required.</label>
+                    <input type="text" placeholder="First Name & Last Name" class="form-control input-lg" id="fullName" name="fullName">
+
+                </div>
+
+                <div class="form-group">
+                    <label class="dataname">Phone</label>
+                    <input type="text"  placeholder="08XXXXXXXX" class="form-control input-lg" id="mobilePhone" name="mobilePhone">
+                </div>
+
+                <div class="form-group">
+                    <label class="dataname">City</label>
+                    <input type="text"  placeholder="Sofia" class="form-control input-lg" id="city" name="city">
+                </div>
+
+                <div class="form-group">
+                    <label class="dataname">Adress</label>
+                    <input type="text"  placeholder="ul. Hristo Botev 63" class="form-control input-lg" id="adress" name="adress">
+                    <label class="text-info">You can enter <b>EKONT</b> or <b>SPEEDY</b> office !</label>
+                    
+                </div>
+
+
+            <button type="submit" class="btn btn-primary">Purchase</button>
+
+        </div>
+    }
+
+
+</body>
+<link href="~/Content/Purchase.css" rel="stylesheet" />

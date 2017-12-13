@@ -155,12 +155,18 @@
     <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="DB\DataContext.cs" />
     <Compile Include="DB\Models\ComputerSpecification.cs" />
+    <Compile Include="DB\Models\Order.cs" />
     <Compile Include="DB\Models\Product.cs" />
     <Compile Include="DB\ProductAdder.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="DB\Migrations\Configuration.cs" />
+    <Compile Include="Migrations\201712131714319_OrderTableAdded.cs" />
+    <Compile Include="Migrations\201712131714319_OrderTableAdded.Designer.cs">
+      <DependentUpon>201712131714319_OrderTableAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PurchaseData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -169,6 +175,7 @@
     <Content Include="Content\DirectPurchase.css" />
     <Content Include="Content\HomePage.css" />
     <Content Include="Content\ImageCorrector.css" />
+    <Content Include="Content\Purchase.css" />
     <Content Include="Content\SpecificationsTable.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -217,10 +224,11 @@
     <Content Include="Views\Home\Search.cshtml" />
     <Content Include="Views\Home\SearchNoResults.cshtml" />
     <Content Include="Views\Home\PageNotFound.cshtml" />
+    <Content Include="Views\Shop\Purchase.cshtml" />
+    <Content Include="Views\Shop\PurchaseFinish.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -237,6 +245,11 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201712131714319_OrderTableAdded.resx">
+      <DependentUpon>201712131714319_OrderTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Tech_Shop.DB;
+using Tech_Shop.DB.Models;
+using Tech_Shop.Models;
 
 namespace Tech_Shop.Controllers
 {
@@ -98,33 +100,45 @@ namespace Tech_Shop.Controllers
            
         }
 
-        public ActionResult DirectPurchase(int? id)
+        [HttpPost]
+        public ActionResult PurchaseStart()
         {
-            if (id == null)
-            {
-                return View("PageNotFound");
-            }
+            return View("Purchase");
+        }
 
+        [HttpPost]
+        public ActionResult PurchaseFinish(PurchaseData data)
+        {
             try
             {
                 using (var db = new DataContext())
                 {
-                    var product = db.Products.Find(id);
-                    if (product == null)
-                    {
-                        return View("PageNotFound");
-                    }
+                    HttpCookie aCookie = Request.Cookies["Items"];
+                    string cookiesItems = aCookie.Value.Replace("%20", " ");
+                    var cartItems = cookiesItems.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
+                    var order = new Order()
+                    {
+                        clientName = data.fullName,
+                        clientPhone = data.mobilePhone,
+                        Adress = data.adress,
+                        City = data.city,
+                        OrderedProducts = string.Join(" ", cartItems)
+                    };
+                    db.Orders.Add(order);
+                    db.SaveChanges();
                     return View();
                 }
             }
             catch (Exception)
             {
-
-                return View("PageNotFound");
+                return View("Purchase");
+                
             }
+       
+           
 
-
+           
         }
 
       

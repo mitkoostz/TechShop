@@ -19,6 +19,8 @@ namespace Tech_Shop.DB
 
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<ComputerSpecification> ComputerSpecifications { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+
 
 
 

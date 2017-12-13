@@ -79,7 +79,11 @@
 
                             var itemArr = itemsString.split(' ');
                             itemArr.shift();
-                            $('#CartBtn_Items').text(itemArr.length);
+                            if (itemArr.length != 0) {
+
+                                $('#CartBtn_Items').text(itemArr.length);
+
+                            }
                         </script>
                     </div>
 
