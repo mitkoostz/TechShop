@@ -132,6 +132,7 @@ namespace Tech_Shop.Controllers
             }
             catch (Exception)
             {
+                ViewBag.InputError = "All fields are required!";
                 return View("Purchase");
                 
             }
