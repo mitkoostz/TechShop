@@ -127,6 +127,7 @@ namespace Tech_Shop.Controllers
                     };
                     db.Orders.Add(order);
                     db.SaveChanges();
+
                     return View();
                 }
             }
